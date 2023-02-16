@@ -42,6 +42,7 @@ rule onenote_maldoc_hta
         $hta24 = ":Win32_Process"
         $hta25 = "ChrW"
         $hta26 =  /a[0-9]+/i
+        $hta27 = "Execute"
 
     condition:
         2 of ($header*) and (any of ($hta*) and $url)

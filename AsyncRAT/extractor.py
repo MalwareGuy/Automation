@@ -1,5 +1,5 @@
 
-__description__ = 'Automate configuration extraction for AsyncRAT strains utilising OneNote documents'
+__description__ = 'Automate configuration extraction for AsyncRAT strains utilising embedded batch scripts within OneNote documents'
 __author__ = 'Malware Guy (@themalwareguy) - https://www.malwareguy.tech/'
 __version__ = '1.0.0'
 __date__ = '2023/02/14'

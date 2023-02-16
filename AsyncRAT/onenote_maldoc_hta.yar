@@ -40,6 +40,8 @@ rule onenote_maldoc_hta
         $hta22 = "winmgmts:\\\\.\\root\\cimv2"
         $hta23 =  /&H[A-Za-z0-9]+:[A-Za-z0-9]+=[A-Za-z0-9]+/i
         $hta24 = ":Win32_Process"
+        $hta25 = "ChrW"
+        $hta26 =  /a[0-9]+/i
 
     condition:
         2 of ($header*) and (any of ($hta*) and $url)
